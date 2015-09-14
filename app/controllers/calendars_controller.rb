@@ -13,6 +13,6 @@ class CalendarsController < ApplicationController
   end
 
   def index
-    @calendars = Calendar.all
+    @calendars = Calendar.last
   end
 end
