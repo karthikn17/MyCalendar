@@ -1,0 +1,23 @@
+
+<% @calendars.each do |calendar| %>
+<p>
+  <strong>Title:</strong>
+  <%= calendar.title %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= calendar.location %>
+</p>
+
+    <p>
+      <strong>Name:</strong>
+      <%= calendar.name %>
+    </p>
+
+    <p>
+      <strong>Description:</strong>
+      <%= calendar.description %>
+    </p>
+
+<% end %>
