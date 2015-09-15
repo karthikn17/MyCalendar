@@ -5,6 +5,7 @@ class CreateCalendars < ActiveRecord::Migration
       t.string :location
       t.string :name
       t.string :description
+      t.date :selectDate
       t.timestamps null: false
     end
   end

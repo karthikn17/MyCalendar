@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20150914030547) do
     t.string   "location"
     t.string   "name"
     t.string   "description"
+    t.date     "selectDate"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end

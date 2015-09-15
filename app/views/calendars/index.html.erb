@@ -2,23 +2,30 @@
 <br/>
 <h3 align="Center   ">Meeting Scheduled</h3>
 
+<% @calendars.each do |calendar| %>
 <p>
   <strong>Title:</strong>
-  <%= @calendars.title %>
+  <%= calendar.title %>
 </p>
 
 <p>
   <strong>Location:</strong>
-  <%= @calendars.location %>
+  <%= calendar.location %>
 </p>
 
     <p>
       <strong>Name:</strong>
-      <%= @calendars.name %>
+      <%= calendar.name %>
     </p>
 
     <p>
       <strong>Description:</strong>
-      <%= @calendars.description %>
+      <%= calendar.description %>
     </p>
 
+    <p>
+      <strong>Date:</strong>
+      <%= calendar.selectDate %>
+    </p>
+
+<% end %>
