@@ -16,7 +16,7 @@ RSpec.describe Calendar, type: :model do
     # a = create(:calendar, :filled)
   end
 
-  # it 'Date shoould be in future' do
+  # it 'Date  shoould be in future' do
   #  b=
   # end
 end

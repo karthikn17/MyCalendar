@@ -2,30 +2,7 @@
 <br/>
 <h3 align="Center   ">Meeting Scheduled</h3>
 
-<% @calendars.each do |calendar| %>
-<p>
-  <strong>Title:</strong>
-  <%= calendar.title %>
-</p>
 
-<p>
-  <strong>Location:</strong>
-  <%= calendar.location %>
-</p>
+<%= react_component('Post', { name: 'John'}, {prerender: true}) %>
 
-    <p>
-      <strong>Name:</strong>
-      <%= calendar.name %>
-    </p>
 
-    <p>
-      <strong>Description:</strong>
-      <%= calendar.description %>
-    </p>
-
-    <p>
-      <strong>Date:</strong>
-      <%= calendar.selectDate %>
-    </p>
-
-<% end %>
